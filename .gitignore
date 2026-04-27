@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Training artefacts
+runs/
+results_*.txt
+
+# Local Optuna stores (the CIFAR study shipped with the paper is tracked explicitly)
+db_*.sqlite3
+!db_cifar_bs1024.sqlite3
+
+# Datasets are downloaded outside the repo
+Datasets/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

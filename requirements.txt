@@ -1,0 +1,9 @@
+torch>=1.10
+torchvision>=0.11
+numpy
+matplotlib
+jupyter
+tqdm
+tensorboard
+pytorch-ignite
+optuna
